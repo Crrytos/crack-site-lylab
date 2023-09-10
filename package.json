@@ -1,0 +1,11 @@
+{
+  "name": "crrytos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Crrytos, Sycraxe",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

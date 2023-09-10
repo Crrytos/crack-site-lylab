@@ -1,0 +1,103 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../background.png');
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le fond */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    text-align: center;
+    margin: 0; /* Pour enlever la marge par défaut du corps */
+    padding: 0; /* Pour enlever le rembourrage par défaut du corps */
+}
+
+.title-bar {
+    background-color: #000; /* Couleur de la bande noire */
+    height: 30px; /* Hauteur de la bande noire */
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px; /* Espace entre la bande noire et le titre */
+}
+
+.button-container {
+    margin-top: 50px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration:none;
+    font-family: cursive;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+/* Style pour le champ de recherche */
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 80%; /* Largeur du champ de recherche */
+    max-width: 400px; /* Largeur maximale du champ de recherche */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Style pour le texte de la barre de recherche */
+#search-input::placeholder {
+    color: #aaa;
+}
+
+/* Style pour le bouton de recherche (si nécessaire) */
+/*#search-button {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #2980b9;
+}*/
+
+#back-button {
+    position: absolute;
+    background-color: #8d8d8d;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    top: 40px; /* Distance depuis le haut */
+    left: 10px; /* Distance depuis la gauche */
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}

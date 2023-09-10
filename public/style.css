@@ -1,0 +1,83 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.png');
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le fond */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    text-align: center;
+    margin: 0; /* Pour enlever la marge par défaut du corps */
+    padding: 0; /* Pour enlever le rembourrage par défaut du corps */
+}
+
+.title-bar {
+    background-color: #000; /* Couleur de la bande noire */
+    height: 30px; /* Hauteur de la bande noire */
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px; /* Espace entre la bande noire et le titre */
+    text-decoration: underline;
+}
+
+.button-container {
+    margin-top: 50px;
+}
+
+.button {
+    display: inline-block;
+    padding: 30px 20px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 75px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: cursive;
+    text-decoration:none;
+}
+
+.button:hover {
+    background-color: #383838;
+}
+
+/* Réinitialisation des marges et du padding du body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour le conteneur qui centre le texte */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Utilisation de 100vh pour occuper toute la hauteur de la fenêtre du navigateur */
+    text-align: center; /* Pour centrer le texte horizontalement */
+}
+
+/* Style pour le texte */
+.message {
+    font-size: 18px; /* Ajustez la taille du texte selon vos préférences */
+    max-width: 60%; /* Limitez la largeur du texte pour une lecture plus confortable */
+    color: #3b3b3b
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+.discord {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-weight: bold;
+}
